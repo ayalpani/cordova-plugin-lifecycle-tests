@@ -24,4 +24,10 @@
     <hook type="before_build" src="scripts/before_build.js" />
     <hook type="after_build" src="scripts/after_build.js" />
 
+    <hook type="before_run" src="scripts/before_run.js" />
+    <hook type="after_run" src="scripts/after_run.js" />
+
+    <hook type="before_serve" src="scripts/before_serve.js" />
+    <hook type="after_serve" src="scripts/after_serve.js" />
+
 </plugin>
