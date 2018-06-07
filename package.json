@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-lifecycle-tests",
+  "version": "1.0.0",
+  "description": "Allows tests of the cordova lifecycle",
+  "cordova": {
+    "id": "cordova-plugin-lifecycle-tests",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayalpani/cordova-plugin-lifecycle-tests"
+  },
+  "keywords": [],
+  "author": "Arash Inaplay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayalpani/cordova-plugin-lifecycle-tests/issues"
+  },
+  "homepage": "https://github.com/ayalpani/cordova-plugin-lifecycle-tests#readme"
+}

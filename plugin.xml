@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-lifecycle-tests" version="1.0.0">
+    <name>cordova-plugin-lifecycle-tests</name>
+    <description>Allows tests of the cordova lifecycle</description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <author>Arash Inaplay</author>
+    <repo>https://github.com/ayalpani/cordova-plugin-lifecycle-tests.git</repo>
+    <engines>
+        <engine name="cordova" version=">=5.4.1" />
+        <engine name="cordova-ios" version=">=4.0.0" />
+        <engine name="apple-ios" version=">=10.0" />
+        <engine name="apple-xcode" version=">=7.2" />
+    </engines>
+
+
+    <hook type="before_prepare" src="scripts/before_prepare.js" />
+    <hook type="after_prepare" src="scripts/after_prepare.js" />
+
+    <hook type="before_compile" src="scripts/before_compile.js" />
+    <hook type="after_compile" src="scripts/after_compile.js" />
+
+    <hook type="before_build" src="scripts/before_build.js" />
+    <hook type="after_build" src="scripts/after_build.js" />
+
+</plugin>
